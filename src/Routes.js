@@ -7,8 +7,9 @@ export default function Routes() {
   return (
     <Switch>
       <Route path="/" exact component={Home} />
-	  { /* Finally, catch all unmatched routes */ }
-	  <Route component={NotFound} />
+
+      { /* Finally, catch all unmatched routes */ }
+	    <Route component={NotFound} />
     </Switch>
   );
 }
